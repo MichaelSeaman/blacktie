@@ -381,74 +381,49 @@ input {
 	letter-spacing: 1px;
 }
 
-#h2 .login-form {
+.login-form {
 	color: #A9A9A9;
-	margin:auto;
 	position: relative;
-	min-width: 400px;
-	min-height: 260px;
-	padding: 15px 25px 15px 25px;
-	margin-top: 15px;
-	cursor: default;
-
 	background-color: rgba(34, 167, 240, 0.3);
-
-
-	-moz-box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, .2), inset 0px 1px 1px 0px rgb(0, 0, 0);
-	-webkit-box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, .2), inset 0px 1px 1px 0px rgb(0, 0, 0);
-	box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, .2), inset 0px 1px 1px 0px rgb(0, 0, 0);
+	min-height: 1px;
+	padding: 15px 5px 15px 5px;
 }
 
-#h2 .login-form h1{
+.login-form h1{
 	color: white;
 }
 
-#h2 .login-form input[type=text],
-#h2 .login-form input[type=password],
-#h2 .login-form input[type=submit] {
-	line-height: 14px;
-	margin: 10px 2px;
-	padding: 6px 15px;
-	border: 0;
-
+.login-form input {
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
-
-
-
+	border: 0px;
+	width: 95%;
 	transition: all .15s ease-in-out;
 	-moz-transition: all .15s ease-in-out;
 	-o-transition: all .15s ease-in-out;
 	-webkit-transition: all .15s ease-in-out;
-
-}
-
-#h2 .login-form input[type = text],
-#h2 .login-form input[type = password],
-#h2 .login-form input[type = submit]{
 	color: #A9A9A9;
-	width: 40%;
-
 	background: rgba(1, 48, 218, .4);
-
 }
 
-#h2 .login-form input[type = text]:hover,
-#h2 .login-form input[type = password]:hover,
-#h2 .login-form input[type = submit]:hover{
-	background: rgba(1, 48, 218, .95);
-
+.login-form input:hover{
+	background: rgba(1, 48, 218, .8);
 }
 
-#h2 .login-form input[type = submit] {
-	float: right;
+.login-form input[type = submit] {
 	cursor: pointer;
-
 }
 
-#h2 .login-form span{
-	position: relative;
-	margin: 15px 2px 2px 2px;
-	float: left;
+.update-wrapper {
+	display: block;
+}
+
+.update-wrapper label{
+	display: inline;
+}
+
+.update-wrapper input[type=checkbox]{
+	width: 14px;
+	display: inline;
 }
