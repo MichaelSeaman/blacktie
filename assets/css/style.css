@@ -425,5 +425,6 @@ input {
 
 .update-wrapper input[type=checkbox]{
 	width: 14px;
+	height: 14px;
 	display: inline;
 }
