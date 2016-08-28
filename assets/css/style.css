@@ -385,8 +385,8 @@ input {
 	color: #A9A9A9;
 	margin:auto;
 	position: relative;
-	width: 80%;
-	height: 200px;
+	min-width: 400px;
+	min-height: 260px;
 	padding: 15px 25px 15px 25px;
 	margin-top: 15px;
 	cursor: default;
@@ -449,6 +449,6 @@ input {
 
 #h2 .login-form span{
 	position: relative;
-	margin-top: 15px;
+	margin: 15px 2px 2px 2px;
 	float: left;
 }
