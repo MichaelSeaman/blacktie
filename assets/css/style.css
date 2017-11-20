@@ -385,6 +385,11 @@ input {
 	letter-spacing: 1px;
 }
 
+.a1 a {
+	color: white;
+	text-decoration: underline;
+}
+
 .login-form {
 	color: #A9A9A9;
 	position: relative;
